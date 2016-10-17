@@ -180,7 +180,6 @@ private:
 
     // gate
     float currentGate;
-
 };
 
 
