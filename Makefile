@@ -1,4 +1,4 @@
-PFM2_VERSION_NUMBER=2.09a
+PFM2_VERSION_NUMBER=E.09a
 PFM2_BIN_NUMBER=$(subst .,,${PFM2_VERSION_NUMBER})
 PFM2_BOOTLOADER_VERSION_NUMBER=1.11
 PFM2_VERSION=\"${PFM2_VERSION_NUMBER}\"
@@ -52,6 +52,9 @@ SRC_FIRMWARE = src/PreenFM.cpp \
 	src/library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c \
 	src/library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c \
 	src/library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c \
+	src/library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c \
+	src/library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c \
+	src/library/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c \
 	src/library/STM32F4xx_StdPeriph_Driver/src/misc.c \
 	src/library/STM32_USB_OTG_Driver/src/usb_dcd.c \
 	src/library/STM32_USB_OTG_Driver/src/usb_dcd_int.c \
